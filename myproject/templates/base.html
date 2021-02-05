@@ -1,0 +1,26 @@
+<html>
+<head>
+      <meta charset="utf-8">
+
+</head>
+<body>
+
+ <form class="Login" method="post">
+      {% csrf_token %}
+      <div class="form-body">
+        <!-- Card Number -->
+          <div> email <input type="email" class="email" placeholder="email" name="email" required></div>
+          <br><br>
+        <div> First_Name <input type="first_name" class="first_name" placeholder="first_name" name="first_name"  required> </div>
+        <br><br>
+        <div> Last_Name <input type="last_name" class="last_name" placeholder="last_name" name="last_name" required></div>
+          <br><br>
+          <div> Password <input type="password" class="password" placeholder="password" name="password" required></div>
+          <br><br><br>
+
+        <!-- Buttons -->
+        <button type="submit" class="proceed-btn">Submit</a></button>
+      </div>
+    </form>
+</body>
+</html>
