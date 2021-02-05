@@ -14,6 +14,7 @@ from myproject import settings
 from .models import User
 from .serializers import UserSerializer
 
+# sadfghjkiuygbnmbhtersdghbnkhhgfaddsfhjnkjtfddfxcvjhmkj
 @api_view(['POST'])
 @permission_classes([AllowAny, ])
 def authenticate_user(request):
