@@ -14,7 +14,7 @@ from myproject import settings
 from .models import User
 from .serializers import UserSerializer
 
-# sadfghjkiuygbnmbhtersdghbnkhhgfaddsfhjnkjtfddfxcvjhmkj
+
 @api_view(['POST'])
 @permission_classes([AllowAny, ])
 def authenticate_user(request):
@@ -98,3 +98,6 @@ def token(email, password):
     headers = {}
     response = requests.request("POST", url, headers=headers, data=payload)
     print(response)
+
+
+# fdkjgkdnfkjghjdfhnvmcnxiuvyiuwefsnmdfdlwaufidkjvnisdzyfuskjzdhkj
